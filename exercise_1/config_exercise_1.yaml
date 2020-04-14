@@ -1,0 +1,51 @@
+# select_color_node: select set of nodes or edge with different color
+# drag_node: possibility to drag the node
+# remove_edge: delete a selected edge
+# remove_node: delete a selected node
+# add_node: add a node
+# add_edge: add an edge
+# choice: possibility to chioice between yes or no 
+# edit_label: label on edge or node are editable (TODO)
+# none: no tools and no interactivity
+# all: all tools are created
+
+text:
+  - 'exercise_1/data/texts/intro.md'
+  - 'exercise_1/data/texts/problem_1.md'
+  - 'exercise_1/data/texts/problem_2.md'
+  - 'exercise_1/data/texts/problem_3.md'
+  - 'exercise_1/data/texts/problem_4.md'
+  - 'exercise_1/data/texts/problem_5.md'
+  - 'exercise_1/data/texts/problem_6.md'
+  - 'exercise_1/data/texts/problem_7.md'
+  - 'exercise_1/data/texts/problem_8.md'
+  - 'exercise_1/data/texts/problem_9.md'
+
+graph: 'exercise_1/data/graph/graph.graphml'
+tools:
+  intro: none
+  p_1 :
+    - select_color_node
+    - drag_node 
+    - choice
+  p_2:
+    - select_color_node 
+    - drag_node 
+    - remove_edge 
+  p_3:
+    - select_color_node
+  p_4:
+    - select_color_node
+  p_5:
+    - select_color_node
+  p_6:
+    - select_color_node
+    - edit_label
+  p_7:
+    - select_color_node
+  p_8:
+    - select_color_node
+  p_9:
+    - select_color_node
+  
+js_file: 'exercise_1/js/sigma-graph.js'
