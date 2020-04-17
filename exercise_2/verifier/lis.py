@@ -5,11 +5,14 @@ def longest_increasing_subsequence(seq,studseq,n):
         l.append(max([l[j] for j in range(i) if l[j][-1] < seq[i]] or [[]], key=len)
                  + [seq[i]])
     res=max(l, key=len)
+    res = list(map(int, res))
+    studseq = list(map(int, studseq))
+    #print("Sottostringa passata: "+str(studseq)+"\nSottostringa calcolata: "+str(res)+"\nLunghezza passata: "+str(n)+"\nLunghezza calcolata: "+str(len(res)))
     if n==len(res):
-        print("Lunghezza corretta\n")
+        print("Lunghezza fornita corretta: "+str(n))
     else:
-        print("Lunghezza sbagliata\n")
+        print("Lunghezza fornita sbagliata\n")
     if res==studseq:
-        print("Sottosequenza corretta\n")
+        print("Sottosequenza fornita corretta: "+str(studseq))
     else:
-        print("Sottosequenza sbagliata\n")
+        print("Sottosequenza fornita sbagliata\n")
