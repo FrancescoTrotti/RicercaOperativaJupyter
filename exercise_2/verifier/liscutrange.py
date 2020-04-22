@@ -34,9 +34,9 @@ def lis(seq,studseq,n):
         print("Sottosequenza fornita sbagliata\n")
 
 def lisSubwithoutElementInRange(seq,studseq,n,start,stop):
-    del seq[start:stop]
-    print(str(seq))
-    lis(seq,studseq,n)
+    aux=seq[:]
+    del aux[start:stop]
+    lis(aux,studseq,n)
 
 # if __name__ == "__main__":
 #     seq=[34,42,44,49,41,52,63,69,40,60,86,45,66,54,79,81,43,46,38,61,80,48,64,73,47]
