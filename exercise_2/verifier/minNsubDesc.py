@@ -4,7 +4,7 @@ def minimoNumSubDESC(seq,studseq,n):
     for elem in studseq:
         aux = []
         for num in elem:
-            if num!='':
+            if num!='0':
                 aux.append(int(num))
         studseqint.append(aux)
 
