@@ -11,3 +11,5 @@ text:
   - 'exercise_2/data/texts/problem_9.md'
 
 table: 'exercise_2/data/table/tb1.md'
+
+res: 'exercise_2/result/'

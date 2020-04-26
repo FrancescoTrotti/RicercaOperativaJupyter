@@ -1,8 +1,8 @@
 import fnmatch
 import os
 
-def save_results():
-    path = '../result/'
+def save_results(path):
+    #path = '../result/'
     n_file=len(fnmatch.filter(os.listdir(path), 'es*.txt'))
     res = open(path + 'soluzione.txt', 'w')
     for i in range(1,n_file+1):
@@ -32,5 +32,5 @@ def save_results():
 
 
 
-if __name__ == '__main__':
-    save_results()
+# if __name__ == '__main__':
+#     save_results()
