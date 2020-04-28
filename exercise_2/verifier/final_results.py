@@ -2,7 +2,7 @@ import fnmatch
 import os
 
 def save_results(path):
-    #path = '../result/'
+    #path = '../data/tmp/'
     n_file=len(fnmatch.filter(os.listdir(path), 'es*.txt'))
     res = open(path + 'soluzione.txt', 'w')
     for i in range(1,n_file+1):
@@ -20,7 +20,7 @@ def save_results(path):
                 num=elem.split(",")
                 for n in num:
                     if int(n)!=0:
-                        aux.append(n)
+                        aux.append(int(n))
                 res.write('\t\t'+str(aux)+'\n')
             res.write('\tNumero di sottosequenze: '+str(len(line)))
 
