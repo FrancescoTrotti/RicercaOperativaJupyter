@@ -36,7 +36,6 @@ def minimoNumSubDESC(seq, studseq, n):
                         j += 1
 
     for x in check:
-        print(x)
         if x == 0:
             print("Soluzione sbagliata non hai inserito tutti i numeri\n")
             return
