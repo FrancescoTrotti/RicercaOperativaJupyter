@@ -1,6 +1,6 @@
-#Esercizi sottosequenze (crescenti e decrescenti)
+# Esercizi sottosequenze (crescenti e decrescenti)
 
-###Import
+### Import
 ![import](./img_sub/import.png)
 
 | Libreria | Utilizzo                                       | 
@@ -16,13 +16,13 @@ Negli import troviamo anche i verificatori, in questo caso troviamo i nomi per i
 per i verificatori decrescenti sostituire i nomi, i verificatori verranno spiegati in seguito.\
 N.B. i verificatori per le sequenze crescenti e decrescenti sono i medesimi, l'unica differenza è il verso del segno per i controlli.
 
-###Bottone run
+### Bottone run
 ![run](./img_sub/run.png)
 
 Questa parte di codice serve per creare un bottone che permette di lanciare il run delle celle sottostanti per inizializzare il notebook.
 Ovviamente la cella di input e questa cella vengono lanciate automaticamente all'apertura del notebook
 
-###Tabella di supporto
+### Tabella di supporto
 
 
 ### example 1: (è il primo esercizio dei due notebook)
