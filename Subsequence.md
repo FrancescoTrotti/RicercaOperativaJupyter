@@ -24,10 +24,12 @@ Ovviamente la cella di input e questa cella vengono lanciate automaticamente all
 
 ### Javascript per inizializzare
 ![javainiti](./img_sub/javainit.png)
+
 Questa cella contenente codice javascript viene lanciata all'apertura del notebook, serve ad estrarre il nome del notebook per riutilizzarlo successivamente.
 
 ### Inizializzazione notebook
 ![extract_name](./img_sub/extractname.png)
+
 Questa cella utilizza il nome del notebook estratto prima per inizializzare il testo.
 Lancia il comando run per caricare il file di configurazione (spiegato prima, link)
 Carica il testo dal file yaml (come già spiegato) e lo mostra a video.
