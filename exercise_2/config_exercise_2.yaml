@@ -12,4 +12,4 @@ text:
 
 table: 'exercise_2/data/table/tb1.md'
 
-res: './exercise_2/data/tmp/'
+res: './exercise_2/data/log/lastans/'

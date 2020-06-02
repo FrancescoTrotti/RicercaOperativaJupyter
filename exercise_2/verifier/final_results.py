@@ -2,11 +2,10 @@ import fnmatch
 import os
 
 def save_results(path):
-    #path = '../data/tmp/'
-    n_file=len(fnmatch.filter(os.listdir(path), 'es*.txt'))
+    n_file=len(fnmatch.filter(os.listdir(path), 'ansquery*.txt'))
     res = open(path + 'soluzione.txt', 'w')
     for i in range(1,n_file+1):
-        file = open(path+'es'+str(i)+'.txt', 'r')
+        file = open(path+'ansquery'+str(i)+'.txt', 'r')
         line=file.readlines()
         if len(line)==1:
             n=line[0].split(',')
@@ -28,9 +27,3 @@ def save_results(path):
 
 
     res.close()
-
-
-
-
-# if __name__ == '__main__':
-#     save_results()
